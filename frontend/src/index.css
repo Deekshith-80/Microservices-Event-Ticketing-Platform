@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply antialiased bg-white text-zinc-950 font-sans tracking-tight;
+    margin: 0;
+    min-width: 320px;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: #09090b;
+    color: #ffffff;
+  }
+}
