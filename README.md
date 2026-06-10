@@ -79,22 +79,8 @@ npm run dev
 
 ---
 
-### 3. Add 3 Demo Movies Instantly
-
-Instead of creating movies manually using forms, you can auto-seed 3 high-quality movie cards directly into your database.
-
-Open a terminal in the tenant service folder and run:
-
-```bash
-node seedMovies.js <YOUR_ORGANIZER_USER_ID>
-
-```
-
----
 
 ## 🛠️ Tech Stack Used
 
 * **Frontend:** React, Tailwind CSS, Axios
 * **Backend:** Node.js, Express, MongoDB (Mongoose), Razorpay Payment Gateway
-
-```
